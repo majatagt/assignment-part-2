@@ -20,11 +20,12 @@ University of Essex Online.
     Concluding remarks
     
 
-	### Structure of the code
+
+## Structure of the code
 1.	Imports of libraries
 2.	Database table created in SQL; only runs once
 3.	Functions add, query, sort_by_amount, delete and search. 
-	Simple structure of each function, here shown without necessary SQL connection. 
+4.      Structure of each function, see the explanation of SQL statements under 'sope of functionalities'. 
 
 Def function():
 answer = messagebox.askyesno
@@ -60,11 +61,11 @@ from tkinter import Entry
 '''
 
 ## Scope of functionalities and break down of the code
-•	user can enter six records
-• 	user can delete, and search records based on keywords
-•	user can sort the records by amount
-• 	user gets a prompt on the screen before committing to an action
-• 	user must select an option on the screen for a function to be performed
+user can enter six records
+user can delete, and search records based on keywords
+user can sort the records by amount
+user gets a prompt on the screen before committing to an action
+user must select an option on the screen for a function to be performed
 
 Entry boxes are used to permit the user to input its own data. In the code I have used six and they follow a similar pattern like this:
 
