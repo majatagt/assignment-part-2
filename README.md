@@ -22,11 +22,11 @@ University of Essex Online.
 
 
 ## Structure of the code
-1.	Imports of libraries
-2.	Database table created in SQL; only runs once
-3.	Functions add, query, sort_by_amount, delete and search. 
-4.      Structure of each function, see the explanation of SQL statements under 'sope of functionalities'. 
-
+1. Imports of libraries
+2. Database table created in SQL; only runs once
+3. Functions add, query, sort_by_amount, delete and search. 
+4. Structure of each function, see the explanation of SQL statements under 'sope of functionalities'. 
+'''
 Def function():
 answer = messagebox.askyesno
 if answer == True:
@@ -35,6 +35,7 @@ if not variable found
 	messagebox.showinfo(“error message”)
 else:
 loop through result and present results on new line 
+''' 
 4.	Labels created
 5.	Buttons created
 6.	Entry boxes created
@@ -53,6 +54,7 @@ Tkinter
 ### Dependencies
 Latast drivers 
 the libraries need to be imported and it must be run in an environment. Imports should already be in the code.
+
 '''
 from tkinter import *
 from tkinter import messagebox, Tk
@@ -68,15 +70,16 @@ user gets a prompt on the screen before committing to an action
 user must select an option on the screen for a function to be performed
 
 Entry boxes are used to permit the user to input its own data. In the code I have used six and they follow a similar pattern like this:
-
+'''
 entrybox_name = Entry(root, width=X, borderwidth=X)
 entrybox_name.grid(row=X, column=X, padx=X, pady=(X, X))
 entrybox_name.get()
 entrybox.insert(0, "Text visible in entry box")
+'''
 
 the top row dictates to the program it is an entry box, placed in the root folder with its dimensions specified. The second row specifies the placement of the entry box, where the third row is a get method used in the add function, so the program knows where to insert what data in the SQL database. 
 
-
+### widgets
 With widgets created in Tkinter using buttons and labels, data is fetched using Python functions from the SQL database table and presented on the screen for the user. For example, to create the “check records” button the command statement fetches instructions from the specified function. In this example, the query function is called to execute, to add records the add function is fetched etc. The second line dictates where the button is placed on the screen in relation to the other buttons.
 
 Button_variable = Button(root, text="Text visible in box", command=query)
@@ -90,7 +93,7 @@ query_label = Label(root, text="data will be displayed here")
 query_label.grid(row=37, column=0, columnspan=9)
 equates to this on the GUI:
 
-
+### SQL statements
 The code throughout follows the main structure but changed to suit each function. Each variable is named after what it is supposed to do to ensure its intended use is clear. Additionally, SQL statements are included in each function as a connection to the database is established and closed after executing a function, instead of implementing a global scoped connection that all functions access at run time. Therefore, each function follows the following blueprint: 
 
 1.	Create connection
