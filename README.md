@@ -11,10 +11,16 @@ University of Essex Online.
 ## Table of contents
     Aim
     Technologies
-    Launch
-    Status
+    Dependencies
+    Scope
+    Data storage
+    Test strategy
+    Test results
+    Project status	
+    Concluding remarks
+    
 
-	#### Structure of the code
+	### Structure of the code
 1.	Imports of libraries
 2.	Database table created in SQL; only runs once
 3.	Functions add, query, sort_by_amount, delete and search. 
