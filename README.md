@@ -138,5 +138,3 @@ Finalised.
 Functions I would have done differently:
 
 Instead of sorting the records by amount in descending order, I would have enabled sorting by date or category instead.
-
-![image](https://user-images.githubusercontent.com/67603121/152684660-7aaf9213-0a44-46e0-b3c4-1962ed81f83c.png)
