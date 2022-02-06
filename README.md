@@ -14,7 +14,7 @@ University of Essex Online.
     Dependencies
     Scope
     	widgets
-	sql statements
+		sql statements
     Data storage
     Test strategy
     Test results
