@@ -5,27 +5,31 @@ University of Essex Online.
 @ Author, Maja Tagt
 
 
- # Bank book
-    A simple bank book to keep track of transaction data. Created with Python, SQLite 3 and Tkinter. 
+
 
 ## Table of contents
     Aim
-    Technologies
+    Structure of the code
+    Technologies used
     Dependencies
     Scope
+    	widgets
+	SQL statements
     Data storage
     Test strategy
     Test results
     Project status	
     Concluding remarks
-    
+   
+## Aim of the bank book 
+The set-out purpose of the bank book is to allow the user to enter and store data about their transactions. Created with Python, SQLite 3 and Tkinter. 
 
 
 ## Structure of the code
 1. Imports of libraries
 2. Database table created in SQL; only runs once
 3. Functions add, query, sort_by_amount, delete and search. 
-4. Structure of each function, see the explanation of SQL statements under 'sope of functionalities'. 
+4. Structure of each function, see the explanation of SQL statements under the SQL statements section. 
 '''
 Def function():
 answer = messagebox.askyesno
@@ -40,9 +44,6 @@ loop through result and present results on new line
 5.	Buttons created
 6.	Entry boxes created
 
-
-## Aim of the bank book 
-The set-out purpose of the bank book is to allow the user to enter and store data about their transactions.
 
 ## Technologies used
 Python 3.10
